@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "npx serve -s dist"
   },
+  "heroku-run-build-script": true,
   "dependencies": {
     "@mdi/js": "^7.0.96",
     "core-js": "^3.8.3",
